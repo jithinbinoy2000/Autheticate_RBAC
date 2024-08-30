@@ -1,0 +1,45 @@
+.text-container{
+    width: 15rem;
+    height: 10rem;;
+    border: 0.1rem solid white;
+    color:azure;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-box-container{
+    width: 250px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.admin-input{
+    width: 100%;
+    height: 2rem;
+    margin-top: .5rem;
+    border: .1rem solid azure;
+    border-radius: 6px;
+    padding: .5rem;
+    color: White;
+    font-size: 13px;
+}
+.admin-button{
+    width: 5rem;
+    text-align: center;
+    height:2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    background-color: black;
+    border-radius: .5rem;
+}
+.text-main{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    
+}
